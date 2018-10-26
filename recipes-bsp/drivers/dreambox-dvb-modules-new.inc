@@ -47,7 +47,7 @@ do_install_append() {
 
 PACKAGES =+ "${PN}-lcd ${PN}-stb-core"
 
-RDEPENDS_${PN} = "dreambox-secondstage-${MACHINE} kernel-${DM_LOCALVERSION} ${PN}-stb-core"
+RDEPENDS_${PN} = "dreambox-secondstage-${MACHINE} kernel ${PN}-stb-core"
 RDEPENDS_${PN}_dm900 = "kernel-${KV}-${MACHINE} ${PN}-stb-core"
 RDEPENDS_${PN}_dm920 = "kernel-${KV}-${MACHINE} ${PN}-stb-core"
 RDEPENDS_${PN}-lcd = "${PN}-stb-core"

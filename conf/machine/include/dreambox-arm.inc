@@ -58,7 +58,6 @@ PREFERRED_VERSION_nfs-utils ?= "1.3.4"
 PREFERRED_PROVIDER_virtual/libgl ?= "mesa-gl"
 PREFERRED_PROVIDER_virtual/mesa ?= "mesa-gl"
 PREFERRED_VERSION_linux-dreambox = "3.14"
-PREFERRED_VERSION_gnupg ?= "2.1.18"
 
 TARGET_ARCH = "arm"
 DEFAULTTUNE = "cortexa15hf-neon-vfpv4"
